@@ -1,0 +1,14 @@
+name: CallAction
+
+on: [push]
+
+jobs:
+  demo-job:
+    runs-on: windows-latest
+    steps:
+      - name: Print working directory using bash
+        run: pwd
+        shell: bash
+      - name: Print working directory using powershell
+        run: Get-Location
+        shell: powershell
