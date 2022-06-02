@@ -16,4 +16,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: calling action file
-        uses: GithubAction/.github/actions@v1
+        uses: GithubAction/.github/actions@main
