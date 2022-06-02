@@ -5,5 +5,9 @@ inputs:
     description: 'Who to greet'
     required: true
     default: 'World'
-runs: echo ${{ inputs.who-to-greet }}
-  
+outputs:
+  time: # id of output
+    description: 'The time we greeted you'
+runs:
+  using: 'node16'
+  main: 'index.js'
