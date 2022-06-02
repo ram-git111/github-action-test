@@ -12,3 +12,9 @@ jobs:
       - name: Print working directory using powershell
         run: Get-Location
         shell: powershell
+jobs:
+  call-action:
+    runs-on: ubuntu-latest
+    steps:
+      -name: calling action file
+       uses: GithubAction/.github/actions@v1
