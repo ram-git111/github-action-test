@@ -16,4 +16,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: calling action file
-        uses: ram-git111/github-action-test/.github/actions@master
+        uses: actions/hello-world-javascript-action
