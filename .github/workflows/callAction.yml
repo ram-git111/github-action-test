@@ -16,4 +16,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: calling action file
-        uses: actions/hello-world-javascript-action
+        uses: actions/hello-world-javascript-action@v1
